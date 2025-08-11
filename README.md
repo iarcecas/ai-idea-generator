@@ -2,6 +2,7 @@
 
 An **AI-powered tool** that instantly generates unique, market-relevant ideas for **apps**, **businesses**, **creative projects**, and **online video content**.  
 Built with **Node.js**, **Express**, and the **Gemini API**, and deployed with **Vercel**.
+Visit at **ai-content-ideas.vercel.app**.
 
 ---
 
