@@ -14,22 +14,10 @@ Built with **Node.js**, **Express**, and the **OpenAI API**, and deployed with *
 
 ---
 
-## 📸 Screenshot
-*(Add a screenshot of your deployed app here)*
-
----
-
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, Vanilla JS
 - **Backend:** Node.js, Express.js
-- **AI Engine:** OpenAI API
+- **AI Engine:** Gemini API
 - **Hosting:** Vercel
 
 ---
-
-## 📥 Installation & Setup
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/ai-idea-generator.git
-cd ai-idea-generator
