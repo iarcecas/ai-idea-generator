@@ -76,6 +76,7 @@ body {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 #topic {
@@ -297,4 +298,54 @@ body {
   .empty-state {
     padding: 3rem 1.5rem;
   }
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: auto;
+}
+
+.footer-links a {
+  color: #c0c0c0;
+  text-decoration: none;
+  margin: 0 0.75rem;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+/* New CSS to properly center list items */
+.input-wrapper ul {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+
+.input-wrapper li {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Fix for Contact Us page alignment */
+.input-wrapper h3, .input-wrapper p {
+  display: block;
+  width: 100%;
+}
+
+#topic {
+  flex: 1;
+  min-width: 250px;
+  padding: 1rem 1.25rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: white;
+  transition: all 0.3s ease;
+  outline: none;
+  text-align: left; /* Keep input text left-aligned */
 }
